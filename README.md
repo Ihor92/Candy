@@ -1,6 +1,6 @@
 # Candies
 
-### [Life demo](https://ihor92.github.io/Candies/src/)
+### [Demo](https://ihor92.github.io/Candies/src/)
 
 ### Technologies are used
 
