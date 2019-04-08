@@ -46,7 +46,7 @@ hr {
   width: 470px;
   height: 1px;
   background: var(--background-color);
-  margin: 27px 0 0px;
+  margin: 27px 0 0;
 }
 
 .section {
