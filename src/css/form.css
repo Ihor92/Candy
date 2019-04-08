@@ -22,7 +22,6 @@
   top: 67px;
   left: 3px;
   outline: 0;
-  box-shadow: 
 }
 
 .input_email:invalid:not([value=""]) {
@@ -65,7 +64,7 @@ input[type="email"]:active {
 
 .input_email:valid:not([value=""]) {
   border: 2px solid var(--color_email);
-} 
+}
 
 .input_email:focus + .submit_subscription:after {
   border: 2px solid var(--background-color);
@@ -110,4 +109,3 @@ input[type="email"]:active {
   background-color: var(--color_email);
   border-radius: 50%;
 }
-

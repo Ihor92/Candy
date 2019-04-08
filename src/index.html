@@ -6,24 +6,21 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <section class="display-flex section">
+  <div class="display-flex section">
     <section class="section_subscription">
       <div class="display-flex">
         <h1 class="title">Цукерочки</h1>
         <img src="images/candy.svg" alt="" class="img_candy">
       </div>
       <p class="text_subscription">Дуже багато нових рішень та крутих фіч які економлять час та покращуюсь вашу роботу в десятки разів. Ласкаво просимо до ознайомлення. Немає часу на перегляд всього? Підпишись та отримуй найцікавіше в одному листі раз на тиждень.</p>
-
       <hr class="hr-after_text_subscription">
-
       <form action="mailto:salfetnikov92@gmail.com" enctype="text/plain" class="form">
         <label for="email_candy" class="label">Отримуйте першим нові цукерочки &#x1F525;</label>
         <input id="email_candy" type="email" placeholder="Ваш email" class="input_email">
         <button type="button" class="submit_subscription"></button>
       </form>
-
     </section>
-    <section>
+    <div>
       <ul class="display-flex list-software">
         <li class="software display-flex flex-center_x-y">
           <a href="javascript: void(0)">
@@ -92,8 +89,8 @@
             <p class="description-text">CSS фреймворк та директива від GitHub</p>
             <button class="btn_link transform_uppercase">Link</button>
           </div>
+          <hr>
         </li>
-        <hr>
         <li class="our_offer">
           <div class="display-flex flex_between">
             <div class="block-waitme">
@@ -108,8 +105,8 @@
             <p class="description-text">CSS фреймворк та директива від GitHub</p>
             <button class="btn_link transform_uppercase">Link</button>
           </div>
+          <hr class="hr-after_waitme">
         </li>
-        <hr class="hr-after_waitme">
         <li class="our_offer">
           <div class="display-flex flex_between">
             <div class="block_primer">
@@ -124,8 +121,8 @@
             <p class="description-text">CSS фреймворк та директива від GitHub</p>
             <button class="btn_link transform_uppercase">Link</button>
           </div>
+          <hr class="hr-after_primer">
         </li>
-        <hr class="hr-after_primer">
         <li class="our_offer block_django">
           <div class="display-flex flex_between">
             <div class="block_django">
@@ -140,12 +137,12 @@
             <p class="description-text">CSS фреймворк та директива від GitHub</p>
             <button class="btn_link transform_uppercase">Link</button>
           </div>
+          <hr class="hr-after_django">
         </li>
-        <hr class="hr-after_django">
       </ul>
       <button class="button_choose-all">Всі 309 цукерочок</button>
-    </section>
-  </section>
+    </div>
+  </div>
     <footer class="footer">
       <div class="footer_nav display-flex flex_between">
         <ul class="footer-articles">
