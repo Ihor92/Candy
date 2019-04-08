@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../fonts/gilroy/Gilroy-Bold.woff");
+  src: local("Gilroy Bold"),
+    local("Gilroy-Bold"),
+    url("../../fonts/gilroy/Gilroy-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-gilroy: "Gilroy", sans-serif;
+}

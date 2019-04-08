@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../../fonts/roboto/Roboto-Regular.woff");
+  src: local("Roboto"),
+    local("Roboto-Regular"),
+    url("../../fonts/roboto/Roboto-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-roboto: "Roboto", sans-serif;
+}

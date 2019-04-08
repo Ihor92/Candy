@@ -1,0 +1,72 @@
+/* button name: ... */
+.btn {
+  transform: rotate(-90deg);
+  background: var(--color_white);
+  border: 1px solid var(--color_white);
+  letter-spacing: 0.2em;
+  font-weight: 900;
+  cursor: pointer;
+  color: var(--color_text);
+  position: absolute;
+  top: 6px;
+  right: 14px;
+}
+
+.btn_option {
+  position: relative;
+}
+
+.btn-waitme {
+  position: absolute;
+  top: -9px;
+  right: 13px;
+}
+
+.btn-primer {
+  position: absolute;
+  top: -12px;
+  left: -47px;
+}
+
+.btn_django {
+  position: absolute;
+  top: -12px;
+  left: -47px;
+}
+
+/* button name: link */
+.btn_link {
+  color: var(--color_title);
+  cursor: pointer;
+  font-family: var(--font-gilroy);
+  background: var(--color_white);
+  border-radius: 22px;
+  border: 2px solid var(--background-color);
+  width: 76px;
+  height: 28px;
+  font-size: 10px;
+  margin: -3px 23px 0;
+  letter-spacing: 1.5px;
+}
+
+/* red button */
+.button_choose-all {
+  width: 470px;
+  height: 44px;
+  font-size: 14px;
+  font-family: var(--font-gilroy);
+  background: var(--color_hashtag_js);
+  color: var(--color_white);
+  border: 1px solid var(--color_hashtag_js);
+  border-radius: 22px;
+  
+  text-align: center;
+  margin-top: 17px;
+  padding-bottom: 1px;
+  outline: 0;
+}
+
+.button_choose-all:hover {
+  cursor: pointer;
+  background: #ae2968;
+}
