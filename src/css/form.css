@@ -62,7 +62,7 @@ input[type="email"]:active {
   border-radius: 50%;
 }
 
-.input_email:valid:not([value=""]) {
+.input_email:valid:not([value=""]):focus {
   border: 2px solid var(--color_email);
 }
 
