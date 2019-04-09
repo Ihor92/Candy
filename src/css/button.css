@@ -49,6 +49,11 @@
   letter-spacing: 1.5px;
 }
 
+.btn_link:hover {
+  border: 1px solid var(--color_email);
+  color: var(--color_email);
+}
+
 /* red button */
 .button_choose-all {
   width: 470px;
